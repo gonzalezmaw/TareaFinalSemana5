@@ -12,6 +12,7 @@
 		1FF780F71BEC718D007A4005 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FF780F51BEC718D007A4005 /* Main.storyboard */; };
 		1FF780F91BEC718D007A4005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FF780F81BEC718D007A4005 /* Assets.xcassets */; };
 		1FF780FC1BEC718D007A4005 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FF780FA1BEC718D007A4005 /* LaunchScreen.storyboard */; };
+		1FF781041BEC71F3007A4005 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF781031BEC71F3007A4005 /* Datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1FF780F81BEC718D007A4005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FF780FB1BEC718D007A4005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FF780FD1BEC718D007A4005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF781031BEC71F3007A4005 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +56,9 @@
 		1FF780F01BEC718D007A4005 /* HamburguesasEnElMundo */ = {
 			isa = PBXGroup;
 			children = (
-				1FF780F11BEC718D007A4005 /* AppDelegate.swift */,
+				1FF781031BEC71F3007A4005 /* Datos.swift */,
 				1FF780F31BEC718D007A4005 /* ViewController.swift */,
+				1FF780F11BEC718D007A4005 /* AppDelegate.swift */,
 				1FF780F51BEC718D007A4005 /* Main.storyboard */,
 				1FF780F81BEC718D007A4005 /* Assets.xcassets */,
 				1FF780FA1BEC718D007A4005 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				1FF780F41BEC718D007A4005 /* ViewController.swift in Sources */,
 				1FF780F21BEC718D007A4005 /* AppDelegate.swift in Sources */,
+				1FF781041BEC71F3007A4005 /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +288,7 @@
 				1FF781021BEC718D007A4005 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
